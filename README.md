@@ -7,16 +7,6 @@ This project implements a simple Linear Regression model in Python from scratch.
 
 ## Derivation of the Equation
 
-The slope `m` of the line is computed using the formula:
-
-\[
-m = \frac{\sum{(x_i - \bar{x})(y_i - \bar{y})}}{\sum{(x_i - \bar{x})^2}}
-\]
-
-Where:
-- \( \bar{x} \) is the mean of \( x \)
-- \( \bar{y} \) is the mean of \( y \)
-
 In Python, this is implemented as:
 ```python
 num = 0
